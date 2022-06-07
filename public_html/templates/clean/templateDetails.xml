@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" client="site">
+	<name>clean</name>
+	<version>1.0</version>
+	<creationDate>June 2022</creationDate>
+	<author>Dutch Joomla Days</author>
+	<authorEmail>info@joomladagen.nl</authorEmail>
+	<copyright>(C) 2017 Stichting Joomla Nederland</copyright>
+	<description>Clean template for JDNL</description>
+	<inheritable>1</inheritable>
+	<files>
+		<filename>index.php</filename>
+		<filename>joomla.asset.json</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<media destination="templates/site/clean" folder="media">
+		<folder>js</folder>
+		<folder>css</folder>
+		<folder>scss</folder>
+		<folder>images</folder>
+	</media>
+	<positions>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="nl-NL">nl-NL/tpl_clean.ini</language>
+		<language tag="nl-NL">nl-NL/tpl_clean.sys.ini</language>
+	</languages>
+</extension>
