@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension version="3.8" type="package" method="upgrade">
+	<name>PWT Sitemap - Package</name>
+	<packagename>pwtsitemap</packagename>
+	<author>Perfect Web Team</author>
+	<creationDate>10 February 2022</creationDate>
+	<copyright>Copyright (C) 2016 - 2022 Perfect Web Team</copyright>
+	<license>GPLv3 http://www.gnu.org/licenses/gpl.html</license>
+	<authorEmail>extensions@perfectwebteam.com</authorEmail>
+	<authorUrl>https://extensions.perfectwebteam.com</authorUrl>
+	<version>2.2.0</version>
+	<description>PWT Sitemap Package</description>
+
+	<scriptfile>script.php</scriptfile>
+
+	<files folder="packages">
+		<file type="component" id="com_pwtsitemap">com_pwtsitemap-2.2.0.zip</file>
+		<file type="plugin" group="system" id="pwtsitemap">plg_system_pwtsitemap-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="contact">plg_pwtsitemap_contact-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="content">plg_pwtsitemap_content-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="djclassifieds">plg_pwtsitemap_djclassifieds-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="easydiscuss">plg_pwtsitemap_easydiscuss-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="hikashop">plg_pwtsitemap_hikashop-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="joomgallery">plg_pwtsitemap_joomgallery-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="k2">plg_pwtsitemap_k2-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="kunena">plg_pwtsitemap_kunena-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="newsfeed">plg_pwtsitemap_newsfeed-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="tag">plg_pwtsitemap_tag-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="virtuemart">plg_pwtsitemap_virtuemart-2.2.0.zip</file>
+		<file type="plugin" group="pwtsitemap" id="zoo">plg_pwtsitemap_zoo-2.2.0.zip</file>
+		<file type="file" id="pwtsitemap_cli">pwtsitemap_cli-2.2.0.zip</file>
+	</files>
+
+	<updateservers>
+		<server type="extension" priority="1" name="PWT Sitemap">https://extensions.perfectwebteam.com/pwt-sitemap/updates</server>
+	</updateservers>
+</extension>
